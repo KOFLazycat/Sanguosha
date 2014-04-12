@@ -140,32 +140,32 @@ public class Deck
 		used.add(new Duel(1, spade));
 		used.add(new Duel(1, club));
 		used.add(new Duel(1, diamond));
-//		used.add(new ArrowSalvo(1, heart));
-//		used.add(new Brotherhood(1, heart));
-//		used.add(new Sabotage(3,spade));
-//		used.add(new Sabotage(3,club));
-//		used.add(new Sabotage(4,spade));
-//		used.add(new Sabotage(4,club));
-//		used.add(new Sabotage(12,spade));
-//		used.add(new Sabotage(12,heart));
-//		
-//		used.add(new Steal(3,spade));
-//		used.add(new Steal(3,diamond));
-//		used.add(new Steal(4,spade));
-//		used.add(new Steal(4,diamond));
-//		used.add(new Steal(11,spade));
+		used.add(new ArrowSalvo(1, heart));
+		used.add(new Brotherhood(1, heart));
+		used.add(new Sabotage(3,spade));
+		used.add(new Sabotage(3,club));
+		used.add(new Sabotage(4,spade));
+		used.add(new Sabotage(4,club));
+		used.add(new Sabotage(12,spade));
+		used.add(new Sabotage(12,heart));
+		
+		used.add(new Steal(3,spade));
+		used.add(new Steal(3,diamond));
+		used.add(new Steal(4,spade));
+		used.add(new Steal(4,diamond));
+		used.add(new Steal(11,spade));
 		
 		used.add(new Harvest(3,heart));
 		used.add(new Harvest(4,heart));
 		
-//		used.add(new BarbarianInvasion(7,spade));
-//		used.add(new BarbarianInvasion(7,club));
+		used.add(new BarbarianInvasion(7,spade));
+		used.add(new BarbarianInvasion(7,club));
 		used.add(new BarbarianInvasion(13,spade));
 		
-//		used.add(new Creation(7,heart));
-//		used.add(new Creation(8,heart));
-//		used.add(new Creation(9,heart));
-//		used.add(new Creation(11,heart));
+		used.add(new Creation(7,heart));
+		used.add(new Creation(8,heart));
+		used.add(new Creation(9,heart));
+		used.add(new Creation(11,heart));
 
 //		used.add(new BorrowSword(12,club));
 //		used.add(new BorrowSword(13,club));
@@ -204,9 +204,9 @@ public class Deck
 	}
 	private void initOriginal()
 	{
-//		initAttack();
-//		initDodge();
-//		initPeach();
+		initAttack();
+		initDodge();
+		initPeach();
 		initInstant();
 		//initDelayed();
 		initEquipment();
@@ -285,7 +285,7 @@ public class Deck
 	}
 	private void initBattle()
 	{
-//		initBasicBattle();
+		initBasicBattle();
 		initSpecialBattle();
 		initEquipmentBattle();
 	}
